@@ -1,0 +1,92 @@
+[
+  {
+    "active": true,
+    "code": "ProductReviewProductStatisticsCronJob",
+    "cronExpression": "0 0 0/8 1/1 * ? *",
+    "description": "Stores Average Of Product Reviews For A Product",
+    "name": "Product Review Product Statistics Cron Job",
+    "status": "SCHEDULED",
+    "type": "Hourly"
+  },
+  {
+    "active": true,
+    "code": "OrdersProductStatisticsCronJob",
+    "cronExpression": "0 0 0/7 1/1 * ? *",
+    "description": "Stores Total of Sales values and count of orders for a product",
+    "name": "Orders Product Statistics Cron Job",
+    "status": "SCHEDULED",
+    "type": "Hourly"
+  },
+  {
+    "active": true,
+    "code": "SiteMapCronJob",
+    "cronExpression": "0 15 00 1/1 * ? *",
+    "description": "Creates Site map for Products and Categories",
+    "name": "Site Map Cron Job",
+    "status": "SCHEDULED",
+    "type": "Daily"
+  },
+  {
+    "active": true,
+    "code": "AbandonedCartsCronJob",
+    "cronExpression": "0 15 01 1/1 * ? *",
+    "description": "Deletes Abandoned Carts",
+    "name": "Abandoned Carts Cron Job",
+    "status": "SCHEDULED",
+    "type": "Daily"
+  },
+  {
+    "active": true,
+    "code": "AutoAssignCategoryToProductsCronJob",
+    "cronExpression": "0 0 0/2 1/1 * ? *",
+    "description": "Auto Assign Category To Products",
+    "name": "Auto Assign Category To Products Cron Job",
+    "status": "SCHEDULED",
+    "type": "Hourly"
+  },
+  {
+    "active": true,
+    "code": "ProductUpdateIndexCronJob",
+    "cronExpression": "0 0/30 * * * ? *",
+    "description": "Updates Product Index",
+    "name": "Product Update Index Cron Job",
+    "status": "SCHEDULED",
+    "type": "Minutes"
+  },
+  {
+    "active": true,
+    "code": "AutoAssignProductsToProductSlider",
+    "cronExpression": "0 00 03 1/1 * ? *",
+    "description": "Auto Assign Products To Product Slider",
+    "name": "Auto Assign Products To Product Slider Cron Job",
+    "status": "SCHEDULED",
+    "type": "Daily"
+  },
+  {
+    "active": true,
+    "code": "AutoAssignCustomersToPromotions",
+    "cronExpression": "0 0 0/9 1/1 * ? *",
+    "description": "Auto Assign Customers To Promotions",
+    "name": "Auto Assign Customers To Promotions Cron Job",
+    "status": "SCHEDULED",
+    "type": "Hourly"
+  },
+  {
+    "active": true,
+    "code": "AutoAssignProductsToPromotions",
+    "cronExpression": "0 0 0/6 1/1 * ? *",
+    "description": "Auto Assign Products To Promotions",
+    "name": "Auto Assign Products To Promotions Cron Job",
+    "status": "SCHEDULED",
+    "type": "Hourly"
+  },
+  {
+    "active": true,
+    "code": "ProductAgeStatisticsCronJob",
+    "cronExpression": "0 45 00 1/1 * ? *",
+    "description": "Stores age of a product",
+    "name": "Product Age Product Statistics Cron Job",
+    "status": "SCHEDULED",
+    "type": "Hourly"
+  }
+]
