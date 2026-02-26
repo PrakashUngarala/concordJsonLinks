@@ -6,7 +6,8 @@
     "description": "Stores Average Of Product Reviews For A Product",
     "name": "Product Review Product Statistics Cron Job",
     "status": "SCHEDULED",
-    "type": "Hourly"
+    "type": "Hourly",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.ProductStatisticsDynamicCronJob"
   },
   {
     "active": true,
@@ -15,7 +16,8 @@
     "description": "Stores Total of Sales values and count of orders for a product",
     "name": "Orders Product Statistics Cron Job",
     "status": "SCHEDULED",
-    "type": "Hourly"
+    "type": "Hourly",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.OrdersProductStatisticsDynamicCronJob"
   },
   {
     "active": true,
@@ -24,7 +26,8 @@
     "description": "Creates Site map for Products and Categories",
     "name": "Site Map Cron Job",
     "status": "SCHEDULED",
-    "type": "Daily"
+    "type": "Daily",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.SiteMapDynamicCronJob"
   },
   {
     "active": true,
@@ -33,7 +36,8 @@
     "description": "Deletes Abandoned Carts",
     "name": "Abandoned Carts Cron Job",
     "status": "SCHEDULED",
-    "type": "Daily"
+    "type": "Daily",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.AbandonedCartsDynamicCronJob"
   },
   {
     "active": true,
@@ -42,7 +46,8 @@
     "description": "Auto Assign Category To Products",
     "name": "Auto Assign Category To Products Cron Job",
     "status": "SCHEDULED",
-    "type": "Hourly"
+    "type": "Hourly",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.CategorySchedulerDynamicCronJob"
   },
   {
     "active": true,
@@ -51,7 +56,8 @@
     "description": "Updates Product Index",
     "name": "Product Update Index Cron Job",
     "status": "SCHEDULED",
-    "type": "Minutes"
+    "type": "Minutes",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.ProductIndexUpdateDynamicCronJob"
   },
   {
     "active": true,
@@ -60,7 +66,8 @@
     "description": "Auto Assign Products To Product Slider",
     "name": "Auto Assign Products To Product Slider Cron Job",
     "status": "SCHEDULED",
-    "type": "Daily"
+    "type": "Daily",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.ProductSliderComponentDynamicCronJob"
   },
   {
     "active": true,
@@ -69,7 +76,8 @@
     "description": "Auto Assign Customers To Promotions",
     "name": "Auto Assign Customers To Promotions Cron Job",
     "status": "SCHEDULED",
-    "type": "Hourly"
+    "type": "Hourly",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.AssignCustomersToPromotionsDynamicCronjob"
   },
   {
     "active": true,
@@ -78,7 +86,8 @@
     "description": "Auto Assign Products To Promotions",
     "name": "Auto Assign Products To Promotions Cron Job",
     "status": "SCHEDULED",
-    "type": "Hourly"
+    "type": "Hourly",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.AssignProductsToPromotionsDynamicCronjob"
   },
   {
     "active": true,
@@ -87,6 +96,7 @@
     "description": "Stores age of a product",
     "name": "Product Age Product Statistics Cron Job",
     "status": "SCHEDULED",
-    "type": "Hourly"
+    "type": "Hourly",
+    "jobClass": "com.concord.ecommerce.services.scheduler.cronjob.dynamic.ProductAgeStatisticsDynamicCronJob"
   }
 ]
