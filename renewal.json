@@ -1,0 +1,21 @@
+{
+  "templateName": "Tenant Subscription Renewal Reminder",
+  "templateCode": "TENANT_UPCOMING_RENEWAL_REMINDER",
+  "templateType": "EMAIL_TEMPLATE",
+  "sentTo": "ADMIN",
+  "description": "Tenant Subscription Renewal Reminder - 7 Days Before Expiry",
+  "emailSubjectAllLocales": [
+    {
+      "locale": "en",
+      "value": "Reminder: Your Concord Subscription Renews in 7 Days"
+    }
+  ],
+  "templateContentAllLocales": [
+    {
+      "locale": "en",
+      "value": "<p>Hi {{CustomerName}},</p><p>This is a friendly reminder that your <b>Concord Commerce</b> subscription will <b>renew in 7 days</b>.</p><h3>Renewal Details</h3><p><b>Plan:</b> {{PlanName}}</p><p><b>Renewal Date:</b> {{NextBillingDate}}</p><p>No action is required if you wish to continue your subscription.</p><p>Thank you for choosing Concord Commerce.</p><p>— <b>The Concord Team</b></p>"
+    }
+  ],
+  "from": "support@concordcommerce.com",
+  "cc": ""
+}
