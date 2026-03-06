@@ -1,6 +1,6 @@
 {
   "templateName": "Recurring Payment Confirmation",
-  "templateCode": "TENANT_RECURRING_PAYMENT_CONFIRMATION",
+  "templateCode": "TENANT_RECURRING_SUBSCRIPTION_DONE",
   "templateType": "EMAIL_TEMPLATE",
   "sentTo": "CUSTOMER",
   "description": "Recurring subscription payment confirmation email",
@@ -19,3 +19,4 @@
   "from": "support@concordcommerce.com",
   "cc": ""
 }
+
