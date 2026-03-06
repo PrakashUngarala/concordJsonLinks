@@ -1,9 +1,9 @@
 {
-  "templateName": "Tenant Subscription Renewal Reminder",
-  "templateCode": "TENANT_UPCOMING_RENEWAL_REMINDER",
+  "templateName": "Upcoming Renewal Reminder 7 Days",
+  "templateCode": "UPCOMING_RENEWAL_REMINDER_7_DAYS",
   "templateType": "EMAIL_TEMPLATE",
-  "sentTo": "ADMIN",
-  "description": "Tenant Subscription Renewal Reminder - 7 Days Before Expiry",
+  "sentTo": "CUSTOMER",
+  "description": "Reminder sent to customer 7 days before their subscription renewal date.",
   "emailSubjectAllLocales": [
     {
       "locale": "en",
@@ -13,7 +13,7 @@
   "templateContentAllLocales": [
     {
       "locale": "en",
-      "value": "<p>Hello {{contactFirstName}} {{contactLastName}},</p><p>This is a friendly reminder that your <b>Concord Commerce</b> subscription will <b>renew in 7 days</b>.</p><h3>Renewal Details</h3><p><b>Plan:</b> {{licensePackageDtls.packageName}}</p><p><b>Renewal Date:</b> {{validTo}}</p><p>No action is required if you wish to continue your subscription.</p><p>Warm regards,</p><p><b>Team Concord Commerce</b></p><p><a href=\"https://concordcommerce.com\">https://concordcommerce.com</a></p>"
+      "value": "<div style=\"width:100%; text-align:center; font-family: Arial, Helvetica, sans-serif;\">\n\n  <div style=\"background-color:#2C64AF; width:100%; padding:20px 0;\">\n    <div style=\"text-align:left; padding-left:20px;\">\n      <a href=\"https://bc.theconcord.io\">\n        <img alt=\"Best eCommerce Platform in India\" src=\"https://concordcommerce.com/wp-content/uploads/2023/02/logo.png\" width=\"200\" height=\"55\" style=\"display:block; border:0;\" />\n      </a>\n    </div>\n  </div>\n\n  <div style=\"padding:30px 20px;\">\n    <h2 style=\"text-align:center;\">\n      <strong>Hi {{Tenant_Name}},</strong>\n    </h2>\n\n    <p style=\"text-align:center; font-size:16px;\">\n      This is a friendly reminder that your Concord subscription will renew in <strong>7 days</strong>.\n    </p>\n\n    <h3 style=\"text-align:center;\">Renewal Details</h3>\n\n    <ul style=\"list-style-type:none; padding:0; margin:0; text-align:center; font-size:14px;\">\n      <li style=\"margin-bottom:8px;\"><strong>Plan:</strong> {{Package_Name}}</li>\n      <li><strong>Renewal Date:</strong> {{Tenant_Subscription_ValidTo}}</li>\n    </ul>\n\n    <p style=\"text-align:center; margin-top:20px; font-size:14px;\">\n      No action is required if you wish to continue your subscription.\n    </p>\n\n    <p style=\"text-align:center; margin-top:30px;\">Warm regards,</p>\n\n    <p style=\"text-align:center;\"><strong>Team Concord Commerce</strong></p>\n    <p style=\"text-align:center;\">\n      <a href=\"https://concordcommerce.com\" style=\"color:#2C64AF; text-decoration:none;\">\n        https://concordcommerce.com\n      </a>\n    </p>\n  </div>\n</div>"
     }
   ],
   "from": "support@concordcommerce.com",
