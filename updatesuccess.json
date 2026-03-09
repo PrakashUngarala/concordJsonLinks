@@ -7,7 +7,7 @@
   "emailSubjectAllLocales": [
     {
       "locale": "en",
-      "value": "Subscription Upgrade"
+      "value": "Your Concord Plan Has Been Upgraded"
     }
   ],
   "templateContentAllLocales": [
@@ -20,4 +20,5 @@
   "cc": ""
 
 }
+
 
