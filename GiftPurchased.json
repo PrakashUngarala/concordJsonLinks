@@ -1,0 +1,21 @@
+{
+  "templateName": "Gift Card Purchased",
+  "templateCode": "GIFTCARD_PURCHASED",
+  "templateType": "EMAIL_TEMPLATE",
+  "sentTo": "CUSTOMER",
+  "description": "Gift Card Purchased",
+  "from": "giftcardservice@theconcord.io",
+  "cc": "",
+  "emailSubjectAllLocales": [
+    {
+      "locale": "en",
+      "value": "Gift Card Purchased"
+    }
+  ],
+  "templateContentAllLocales": [
+    {
+      "locale": "en",
+      "value": "<p>Hi <strong>{{Customer_Name}}</strong>,</p>\n\n<p>Thank you for purchasing the Gift Card <strong>{{Giftcard_Code}}</strong> with an amount of <strong>{{Giftcard_Amount}}</strong> valid till <strong>{{Giftcard_ExpiryDate}}</strong>.</p>\n\n<p>You can purchase products in <strong>{{Website_Domain}}</strong> using this Gift Card Code.</p>\n\n<p>Thank You,</p>\n\n<p>customerservice@theconcord.io</p>\n\n<p><strong>{{Website_Domain}}</strong></p>\n"
+    }
+  ]
+}
